@@ -1,13 +1,132 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #098a9c;
+  /* background-image: url(https://img.freepik.com/premium-vector/abstract-purple-wavy-modern-light-background_120409-1515.jpg?w=2000); */
+  background-size: 106%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  width: 99vw;
+  height: 99vh;
+}
+
+.btn-position {
+  margin-left: 10%;
+  width: 80%;
+  margin-left: none;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grp-name {
+  margin-top: 20px;
+  font-style: Cursive;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+
+.btn {
+  height: 60%;
+  margin-top: 1.1%;
+  width: 8%;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+#button-container {
+  width: 23%;
+  height: 15%;
+  margin-left: 39.5%;
+  margin-top: 23%;
+}
+
+.hover-btn {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+.copyright {
+  font-size: 1rem;
+  font-weight: 350;
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 24%;
+  background-color: rgba(104, 23, 227, 0.1);
+  padding: 3px 3px 3px 7px;
+  border-radius: 7px;
+  color: white;
+}
+
+.top {
+  height: 30%;
+  width: 50%;
+  margin-top: -50%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+
+.right {
+  height: 30%;
+  width: 50%;
+  margin-top: -22%;
+  margin-left: 105%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+
+.down {
+  height: 30%;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+
+.left {
+  height: 30%;
+  width: 50%;
+  margin-top: -22%;
+  margin-left: -60%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(40, 24, 3, 0.1);
+}
+.active {
+  background-color: #406798;
+}
+
+#classn {
+  color: white;
+  background-color: #9c9c9c;
+  border-radius: 14px;
+  border-color: white;
 }
